@@ -1,4 +1,4 @@
-class LinkedlistDupes:
+class LinkedlistDupes:							# Naming Linked List
 	class _Node:								# defining a node
 		def __init__(self, element, next):		# initializing variables for node
 			__slots__ = '_element', '_next'
